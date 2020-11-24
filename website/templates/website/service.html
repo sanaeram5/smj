@@ -1,0 +1,79 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static '/css/service.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Services</title>
+    </head>
+    <body>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+			  <li class="breadcrumb-item"><a href="{% url 'projects' %}">Projects</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Services</li>
+			  <li class="breadcrumb-item"><a href="{% url 'about' %}">About Us</a></li>
+			  <li class="breadcrumb-item"><a href="{% url 'contact' %}">Contact</a></li>
+            </ol>
+        </nav>
+        <hr class="line">
+        <div class="container">
+            <h1>Services</h1>
+            <br>
+            <br>
+            <h3>Solar</h3>
+            <br>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="image">
+                        <img  class="size" src="{% static '/image/s1.jpg' %}">
+                        <div class="text">
+                            <span style="text-align:right;"> Gyan Ganga Institute of Technology & Science, Jabalpur M.P,256 Kwp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <p>A pan India solar engineering, procurement & construction (EPC) solution and installation & commissioning (I&C) service provider. We have installed more than 1.7 MW roof top solar plants across India.</p>
+                    <p>We provide the best association of energy from sunlight to electricity that can have a positive, indirect positive effect on the environment.</p>
+                    <p>Our Mission is to promote and commercialize the use of the solar energy (both off and On-grid plant) to reach the remotest corner of India.</p>
+                    <h3>Services:-</h3>
+                    <ul>
+                        <li>Turnkey EPC Solutions solar Projects</li>
+                        <li>Installation & commissioning (I&C) of roof top and ground mounted solar plants across India</li>
+                        <li>Supply and I&C of solar street lights</li>
+                        <li>Operation & Maintenance of Solar Plants</li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <hr>
+            <h3>E&M </h3>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>A pan India Electrical and Mechanical solution provider. In 2019, we registered in Delhi Jal Board as an E&M contractor.</p>
+                    <h3>Services:-</h3>
+                    <ul>
+                        <li>Turnkey EPC Electrical Solutions (LV & HV )</li>
+                        <li>Mechanical fabrication work, Pipe work etc.</li>
+                        <li>Industrial and commercial electrification</li>
+                        <li>Operation and maintenance of electrical plants</li>
+                        <li>Street Lights Projects</li>
+                    </ul>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-7">
+                    <div class="image1">
+                        <img class="size" src="{% static '/image/s2.jpg' %}">
+                        <div class="text" style="text-align:right;">
+                            Fabrication of mounting structure for solar at 12 meter
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </body>
+</html>

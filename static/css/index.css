@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+body{
+    font-family:verdana !important;
+    font-size: 16px !important;
+    text-align: justify !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+    color:#505962 !important;
+}
+.navbar{
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: .9 rem !important;
+    letter-spacing: .1 rem !important;
+    background: transparent !important;
+    text-shadow: .1rem .1rem .8rem black !important;
+    color: white !important;
+}
+.nav-link{
+    text-shadow: .1rem .1rem .8rem black !important;
+    color: white !important;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.navbar-nav{
+    padding-right: .7rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+    color: navy !important;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption h1{
+    font-size: 4.8rem !important;
+    font-family: 'Allura', cursive !important;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1 rem;
+}
+.carousel-caption h5{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem 1rem black;
+    padding-bottom: 1rem;
+}
+footer{
+    background-color:white;
+    color: black;
+    padding: 2rem 0 3rem;
+    margin-top: 1rem;
+}
+footer img{
+    margin:1.5rem 0;
+}
+hr.socket{
+    border-top: .2rem solid navy;
+    width: 100%;
+}
+@media (max-width:767px){
+    .carousel-caption h1{
+        font-size: 2.3rem;
+        letter-spacing: 0.15rem;
+        padding-bottom: .5 rem;
+    }
+    .carousel-caption h5{
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+	.navbar-brand{
+		width:150px;
+		height:150px;
+	}
+	.size{
+		margin-left:140px;
+	}
+}
+@media (max-width:480px){
+    .carousel-caption h1{
+        font-size: 20px;
+        letter-spacing: 0.15rem;
+        padding-bottom: .5 rem;
+    }
+    .carousel-caption h5{
+        font-size: 0.5rem;
+        padding-bottom: 1.2rem;
+    }
+	.navbar-brand img{
+		width:100px;
+		height:100px;
+	}
+	.navbar-brand{
+		margin-left:10px;
+	}
+	.size{
+		margin-left:40px;
+	}
+}
+h1{
+    font-family: 'Allura', cursive !important;
+    font-size: 62px !important;
+    margin-bottom: 60px !important;
+    text-align: center !important;
+}
+.social{
+    margin-left: 140px;
+    position: relative;
+    display: flex;
+}
+.social li{
+    list-style: none;
+    margin-right: 25px;
+}
+.social li a{
+    text-decoration: none;
+}
+.social li a i{
+    color:black;
+    opacity: 0.5;
+}
+.social li:hover a i{
+    opacity: 1;
+}

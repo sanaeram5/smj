@@ -1,0 +1,57 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static '/css/about.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>About Us</title>
+    </head>
+    <body>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+			  <li class="breadcrumb-item"><a href="{% url 'projects' %}">Projects</a></li>
+			  <li class="breadcrumb-item"><a href="{% url 'service' %}">Services</a></li>
+              <li class="breadcrumb-item active" aria-current="page">About Us</li>
+			  <li class="breadcrumb-item"><a href="{% url 'contact' %}">Contact</a></li>
+            </ol>
+          </nav>
+        <hr class="line">
+        <div class="container">
+            <h1>About Us</h1>
+            <div class="image">
+                <img class="size" src="{% static '/image/a1.jpg' %}">
+                <div class="text">
+                    Neeru menthol Private Limited, Rampur
+                </div>
+            </div>
+            <div class="crd">
+                <div class="about">
+                    <br>
+                    <br>
+                    <p>Established in 2018, SMJ electrical private limited is all in one electrical contract-based company that deals in electrical, mechanical and solar turnkey projects across India. A friendship converted into business partnership in 2016 as “Tesla Engineering Enterprises” that covered multiple projects. As the relationship and our hard work blossomed, all friends together shaped their partnership into “SMJ electrical private limited.” </p>
+                    <p>Our company provides services for Electrical & Mechanical Turnkey Projects, turnkey solar EPC project, solar I&C project, Solar Street Lights projects, operation and maintenance of substations, buildings, pump house, solar plants. </p>
+                    <p>We provide the best association of energy from sunlight to electricity that can have a positive, indirect positive effect on the environment across India. What makes us stands out is that our engineering expertise provides you quick understanding and response to clients’ application needs that includes needs in power, supporting electronics and better performance under varying environmental conditions. </p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <h1>Our Team</h1>
+            <div class="image1">
+                <img class="size" src="{% static '/image/a2.jpg' %}">
+                <div class="text">
+                    Undergoing I&C of rooftop solar
+                </div>
+            </div>
+            <div class="crd">
+                <div class="about">
+                    <br><br>
+                    <p>Our team has a specialized experienced in installing solar plant and electrical projects across India. We are people of our words and believe in economical cost power with high edges. The Electrical professional engineers in our team have years of experience of electrical services and systematic solar plant in India for residential or commercial applications. We have a hands-on experience of years to design and install solar systems that meet your needs. We do take care of every need and focus on every instruction of yours. Our designing team is very creative and energetic and believes in listening to the requirements when building the prototypes. The team here takes their work as their passion and enjoys doing what they love by also following what clients need.</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </body>
+</html>

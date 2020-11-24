@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+hr.line {
+    border: 5px solid navy;
+}
+h1{
+    font-family: 'Allura', cursive !important;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+body{
+    font-family:verdana;
+    font-size: 16px ;
+    text-align: justify;
+    margin: 0;
+}
+h3{
+    font-family: 'Allura', cursive !important;
+    color: navy;
+    font-size: 26px;
+    margin-top: 100px;
+    text-align: center;
+}
+h2{
+    color: navy;
+    font-size: 26px;
+    margin-top: 100px;
+    text-align: center;
+}
+.text{
+    text-align:right !important;
+    color: grey;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.image1 img{
+    align-content:left;
+}
+@media (max-width:480px){
+    .text{
+        font-size:6px !important;
+    }
+	.size{
+		width:330px;
+		height:300px;
+	}
+}
+@media (max-width:767px){
+	.text{
+        font-size:8px !important;
+    }
+	.image img{
+		width:500px !important;
+	}
+	.image1 img{
+		width:500px !important;
+	}
+}

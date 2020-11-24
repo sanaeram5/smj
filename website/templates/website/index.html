@@ -1,0 +1,135 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static '/css/index.css' %}">
+        <link rel="stylesheet" href="{% static '/css/fixed.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>SMJ Electrical Private Ltd.</title>
+    </head>
+    <body data-spy="scroll" data-target="#navbarResponsive">
+        <div id="home">
+            <nav class="navbar navbar-light navbar-expand-md fixed-top">
+                <a class="navbar-brand" href="#"><img src="{% static '/image/logo1.png' %}"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="{% url 'home' %}">Home</a>
+                    <a class="nav-item nav-link" href="{% url 'projects' %}">Projects</a>
+                    <a class="nav-item nav-link" href="{% url 'service' %}">Services</a>
+                    <a class="nav-item nav-link" href="{% url 'about' %}">About Us</a>
+                    <a class="nav-item nav-link" href="{% url 'contact' %}">Contact</a>
+                  </div>
+                </div>
+              </nav>
+              <div id="cs" class="carousel slide" data-ride="carousel" data-interval="4000">
+                <ol class="carousel-indicators">
+                    <li class="#cs" data-slide-to="0" class="active"></li>
+                    <li class="#cs" data-slide-to="1"></li>
+                    <li class="#cs" data-slide-to="2"></li>
+                    <li class="#cs" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" style="background-image:url('{% static '/image/slide4.JPG' %}');">
+                        <div class="carousel-caption text-center">
+                            <h1>SMJ Electrical Private Ltd.</h1>
+                            <h5>New Horizon School, New Delhi,25 Kwp roof top EPC</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image:url('{% static '/image/slide2.JPG' %}');">
+                        <div class="carousel-caption text-center">
+                            <h1>SMJ Electrical Private Ltd.</h1>
+                            <h5>Additional Building of Supreme Court additional building Delhi,253 Kwp</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image:url('{% static '/image/slide3.jpg' %}');">
+                        <div class="carousel-caption text-center">
+                            <h1>SMJ Electrical Private Ltd.</h1>
+                            <h5>Electrification work, Additional Building Supreme Court, Delhi</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image:url('{% static '/image/slide1.JPG' %}');">
+                        <div class="carousel-caption text-center">
+                            <h1>SMJ Electrical Private Ltd.</h1>
+                            <h5>Aurbindo College Delhi,50 Kwp I&C </h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#cs" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#cs" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+        </div>
+        <div class="container">
+            <br><br>
+            <h1>Vision</h1>
+            <p>The vision is to save time as well as money at the same time and to take our every aspect of your project including permits, designing, and installations. We aim to recognize as India’s leading electrical contractor company that provides the all in one solar energy solutions and other electrical services to clients. Our electrical services and solar plant across India will help you to save your system energy. We will soon plan to go pan India and aim to become a highly specialized electrical contract company to provide quality services of electrical systems and solar plant that not only saves your money but also creates a positive impact on environment with cost sufficient price. Our vision includes services by claiming “You name it and we have it”.</p>
+            <hr>
+            <h1>Mission</h1>
+            <p>The Mission is to promote and commercialize the use of the solar plant and electrical energy to reach the remotest corner of India through SMJ with the best collaboration of electricity and technology. We assure you of the best positive energy storage system with outstanding technical support. In the upcoming years, we are planning for a more innovative solution of solar plant and also planning to provide a quality level of services to exceed the expectations of our clients.</p>
+            <hr>
+        </div>
+		<div class="container">
+        <h1>Our Clients</h1>
+        <div class="row">
+                <div class="col-md-2">
+                    <img class="size" src="{% static '/image/l1.jpg' %}">
+                </div>
+				<div class="col-md-0.5"></div>
+                <div class="col-md-2">
+                    <img class="size" src="{% static '/image/l2.jpg' %}">
+                </div>
+				<div class="col-md-0.5"></div>
+                <div class="col-md-2">
+                    <img class="size" src="{% static '/image/l3.png' %}">
+                </div>
+				<div class="col-md-0.5"></div>
+                <div class="col-md-2">
+                    <img class="size" src="{% static '/image/l4.png' %}">
+                </div>
+                <div class="col-md-0.5"></div>
+                <div class="col-md-2">
+                    <img class="size" src="{% static '/image/l6.jpg' %}">
+                </div>
+        </div>
+		</div>
+        <div class="container">
+            <hr>
+        </div>
+        <div id="contact">
+            <footer>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 text-center">
+                        <img src="{% static '/image/logo.png' %}">
+                        <p><strong>SMJ ELECTRICAL PRIVATE LTD.</strong></p>
+                        <p>J 19 ABUL FAZAL ENCLAVE,JAMIA NAGAR,NEW DELHI 110025</p>
+                        <p>info@smje.in / 9971182865</p>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/smjepl"><i class="fa fa-facebook-f" style="font-size:36px"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/smjepl/about/"><i class="fa fa-linkedin" style="font-size:36px"></i></a></li>
+                            <li><a href="https://www.instagram.com/smjepl/"><i class="fa fa-instagram" style="font-size:36px"></i></a></li>
+                            <li><a href="https://twitter.com/smjepl"><i class="fa fa-twitter" style="font-size:36px"></i></a></li>
+                        </ul>
+                    </div>
+                    <hr class="socket">
+                    &copy; SMJ Electrical Private Ltd.
+                </div>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script>
+            $(window).on('scroll', function (e) {
+              $('.navbar')[$(window).scrollTop() >= 150 ? 'removeClass' : 'addClass']('fixed-top');
+            });
+        </script>
+    </body>
+  </html>

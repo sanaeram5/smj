@@ -1,0 +1,102 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static '/css/project.css' %}">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Projects</title>
+    </head>
+    <body>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Projects</li>
+          <li class="breadcrumb-item"><a href="{% url 'service' %}">Services</a></li>
+          <li class="breadcrumb-item"><a href="{% url 'about' %}">About Us</a></li>
+          <li class="breadcrumb-item"><a href="{% url 'contact' %}">Contact</a></li>
+        </ol>
+      </nav>
+        <hr class="line">
+        <div class="container">
+            <h1>Projects</h1>
+            <br>
+            <br>
+            <h3>Solar</h3>
+            <br>
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                    <img src="{% static '/image/pr1.jpeg' %}" class="gallery__img" alt="Image 1">
+                    <div class="text">Cooch Behar, 230Kwp </div>
+                  </figure>
+                  <figure class="gallery__item gallery__item--2">
+                    <img src="{% static '/image/pr2.jpg' %}" class="gallery__img" alt="Image 2">
+                    <div class="text">GD Goenka, Agra, 150 Kwp of roof top solar </div>
+                  </figure>
+                  <figure class="gallery__item gallery__item--3">
+                    <img src="{% static '/image/pr3.jpg' %}" class="gallery__img" alt="Image 3">
+                    <div class="text">KV CRPF School, Guwahati, 130 Kwp of roof top solar </div>
+                  </figure>
+                  <figure class="gallery__item gallery__item--4">
+                    <img src="{% static '/image/pr4.JPG' %}" class="gallery__img" alt="Image 4">
+                    <div class="text">Gyan Ganga Institute of Technology & Science, Jabalpur M.P, 256 Kwp roof top solar </div>
+                  </figure>
+                  <figure class="gallery__item gallery__item--5">
+                    <img src="{% static '/image/pr5.JPG' %}" class="gallery__img" alt="Image 5">
+                    <div class="text">Chatarpur, 25 Kwp</div>
+                  </figure>
+                  <figure class="gallery__item gallery__item--6">
+                    <img src="{% static '/image/pr6.jpg' %}" class="gallery__img" alt="Image 6">
+                    <div class="text">New Boys hostel, Katihar Medical College, Katihar, 10 Kwp Hybrid solar plant </div>
+                  </figure>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>EPC Projects</h2>
+                    <ul>
+                        <li>25 Kwp roof top On-grid solar plant at New Horizon School, New Delhi</li>
+                        <li>10 Kwp Hybrid solar plant, New Boys hostel, Katihar Medical College, Katihar</li>
+                        <li>7.5 Kwp roof top solar plant at The Blossom School, Aligarh</li>
+                        <li>Solar Street Lights in Delhi for Larsen & Toubro</li>
+                    </ul>
+                </div>
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-7">
+                    <h2>Major I&C Projects</h2>
+                    <p>We have completed 1.7 Mwp roof top ad shed solar projects across among which which some major capacity projects are mentined below</p>
+                    <ul>
+                        <li>253 Kwp at Additional Building of Supreme Court additional building Delhi</li>
+                        <li>256 Kwp roof top solar at Gyan Ganga Institute of Technology & Science, Jabalpur M.P</li>
+                        <li>230 Kwp of roof top solar at Cooch behar, Bengal</li>
+                        <li>130 Kwp of roof top solar at Guwahati, Assam</li>
+                        <li>150 Kwp of roof top solar at G D Goenka school Agra</li>
+                        <li>131 Kwp of roof top solar at Airtel Head Office,Gurgaon</li>
+                        <li>91 Kwp shed at Neeru menthol Private Limited, Rampur</li>
+                        <li>50 Kwp I&C of Aurbindo College Delhi</li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <hr>
+            <h3>E&M </h3>
+            <img class ="right" src="{% static '/image/e1.jpeg' %}" width="550px" height="300px">
+            <img class ="left" src="{% static '/image/e2.jpeg' %}" width="550px" height="300px">
+            <div class="break">
+                <br>
+                <ul>
+                    <li>Lower and Lifting of Pumps for Delhi Jal Board at various tube wells in Delhi</li>
+                    <li>Renovation of tube wells for Delhi Jal Board</li>
+                    <li>Replacement of Pipe line for Delhi Jal Board</li>
+                    <li>Electrification (wring work) of additional building of Supreme Court of India, New Delhi</li>
+                    <li>Supply and Fabrication Work at height of more than 12 meters for installation of Solar at additional building of Supreme Court of India</li>
+                </ul>
+            </div>
+            <br>
+            <br>
+        </div>
+        </body>
+</html>
